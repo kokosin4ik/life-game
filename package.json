@@ -1,0 +1,16 @@
+{
+  "name": "life-game",
+  "private": true,
+  "scripts": {
+    "install-deps": "npx lerna bootstrap",
+    "prepare": "npx lerna run prepare",
+    "dev": "yarn prepare && npx lerna run start --parallel",
+    "test": "npx lerna run test --parallel"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

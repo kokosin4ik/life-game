@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "lib": [
+      "es6"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}

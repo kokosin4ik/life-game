@@ -1,0 +1,31 @@
+{
+  "name": "common",
+  "version": "0.0.0",
+  "description": "common utils for the project",
+  "author": "Evgeny Dyachkov",
+  "homepage": "https://github.com/kokosin4ik/life-game#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokosin4ik/life-game.git"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "start": "tsc --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/kokosin4ik/life-game/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@types/node": "^16.3.0"
+  }
+}
